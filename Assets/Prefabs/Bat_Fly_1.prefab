@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8652350817210913139}
   - component: {fileID: 7127546712959995748}
   - component: {fileID: 4292992545438821041}
+  - component: {fileID: -699271997256810825}
   m_Layer: 0
   m_Name: Bat_Fly_1
   m_TagString: Untagged
@@ -105,7 +106,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &4292992545438821041
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -132,3 +133,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.17677996, y: 0.08632122}
   m_EdgeRadius: 0
+--- !u!114 &-699271997256810825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7019507087854000039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28226a604c0790c4d8991b2d72906ff6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
+  vertical: 1
+  changeTime: 10

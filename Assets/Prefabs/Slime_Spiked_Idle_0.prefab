@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2982485519421772349}
   - component: {fileID: 2982485519421772348}
   - component: {fileID: 2982485519421772351}
+  - component: {fileID: -4162375817567023484}
   m_Layer: 0
   m_Name: Slime_Spiked_Idle_0
   m_TagString: Untagged
@@ -105,7 +106,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &2982485519421772351
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -132,3 +133,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.19452712, y: 0.07450947}
   m_EdgeRadius: 0
+--- !u!114 &-4162375817567023484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2982485519421772350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28226a604c0790c4d8991b2d72906ff6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 2
+  vertical: 1
+  changeTime: 3

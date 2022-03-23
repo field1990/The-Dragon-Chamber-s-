@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8277520468486621487}
   - component: {fileID: 1574390124285055396}
   - component: {fileID: 8105600695556336946}
+  - component: {fileID: -751077614469563574}
   m_Layer: 0
   m_Name: Golem_Armor_Idle_1
   m_TagString: Untagged
@@ -131,4 +132,19 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
+--- !u!114 &-751077614469563574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 206532291940420039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28226a604c0790c4d8991b2d72906ff6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0.5
+  vertical: 0
+  changeTime: 10
