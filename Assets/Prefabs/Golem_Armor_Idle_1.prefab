@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1574390124285055396}
   - component: {fileID: 8105600695556336946}
   - component: {fileID: -751077614469563574}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Golem_Armor_Idle_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -99,7 +99,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.0068249702, y: -0.020474806}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -110,7 +110,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.64, y: 0.64}
+  m_Size: {x: 0.24111986, y: 0.26538673}
   m_EdgeRadius: 0
 --- !u!50 &8105600695556336946
 Rigidbody2D:
