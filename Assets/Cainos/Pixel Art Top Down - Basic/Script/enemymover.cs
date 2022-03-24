@@ -4,15 +4,10 @@ using UnityEngine;
 
 public class enemymover : MonoBehaviour
 {
-    public float speed = 0.5f;
+    public float speed;
     public bool vertical;
     public float changeTime = 3.0f;
     Rigidbody2D rigidbody2D;
-
-    public float displayTime = 5.0f;
-    public GameObject dialogBox;
-    float timerDisplay;
-
     //rigidbody2D.freezeRotation = true;
     float timer;
     int direction = 1;
@@ -21,9 +16,6 @@ public class enemymover : MonoBehaviour
     {
         rigidbody2D = GetComponent<Rigidbody2D>();
         timer = changeTime;
-
-        dialogBox.SetActive(false);
-        timerDisplay = -1.0f;
     }
 
     // Update is called once per frame
@@ -35,15 +27,6 @@ public class enemymover : MonoBehaviour
         {
             direction = -direction;
             timer = changeTime;
-        }
-
-        if (timerDisplay >= 0)
-        {
-            timerDisplay -= Time.deltaTime;
-            if (timerDisplay < 0)
-            {
-                dialogBox.SetActive(false);
-            }
         }
     }
     void FixedUpdate()
@@ -60,11 +43,5 @@ public class enemymover : MonoBehaviour
         }
 
         rigidbody2D.MovePosition(position);
-    }
-
-    public void DisplayDialog()
-    {
-        timerDisplay = displayTime;
-        dialogBox.SetActive(true);
     }
 }
