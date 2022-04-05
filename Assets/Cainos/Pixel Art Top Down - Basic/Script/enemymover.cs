@@ -7,6 +7,7 @@ public class enemymover : MonoBehaviour
     public float speed = 0.5f;
     public bool vertical;
     public float changeTime = 3.0f;
+    public int doorCode = 8652;
     Rigidbody2D rigidbody2D;
 
     public float displayTime = 5.0f;
